@@ -3,5 +3,7 @@
     <pages>
         <page name='tableViewDataSource'/>
         <page name='tableViewDelegate'/>
+        <page name='Untitled Page'/>
+        <page name='GCD'/>
     </pages>
 </playground>

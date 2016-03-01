@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dis_nofity</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let group = dispatch_group_create()
+let queue = &lt;#dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)#&gt;
+dispatch_group_async(group, queue) { () -&gt; Void in
+    &lt;#code#&gt;
+    //多个线程任务执行完后，处理notify
+    dispatch_group_notify(group, queue, { () -&gt; Void in
+        &lt;#code#&gt;
+    })
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>39CB4596-F55A-4A3E-9A4E-7E4973615DE8</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>快速创建group_nofity片段</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>dispatch_group_notify</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
