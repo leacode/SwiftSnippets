@@ -2,8 +2,6 @@
 
 import UIKit
 
-
-
 // MARK: - UICollectionViewDataSource
 
 func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
