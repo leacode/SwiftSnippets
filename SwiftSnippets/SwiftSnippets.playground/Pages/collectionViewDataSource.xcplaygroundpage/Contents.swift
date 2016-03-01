@@ -1,4 +1,4 @@
-
+//: [Previous](@previous)
 
 import UIKit
 
@@ -17,3 +17,4 @@ func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath ind
     return cell
 }
 
+//: [Next](@next)

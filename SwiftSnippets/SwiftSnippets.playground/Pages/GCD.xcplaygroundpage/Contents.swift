@@ -1,3 +1,5 @@
+//: [Previous](@previous)
+
 //: GCD Snippets
 
 import Foundation
