@@ -9,7 +9,8 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string> // MARK: - UICollectionViewDataSource
+	<string>  
+    // MARK: - UICollectionViewDataSource
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -&gt; Int {
         return &lt;#code#&gt;
@@ -20,7 +21,8 @@
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -&gt; UICollectionViewCell {
-        return &lt;#code#&gt;
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(&lt;#T##identifier: String##String#&gt;, forIndexPath: &lt;#T##NSIndexPath#&gt;)
+        return cell
     }
 </string>
 	<key>IDECodeSnippetIdentifier</key>

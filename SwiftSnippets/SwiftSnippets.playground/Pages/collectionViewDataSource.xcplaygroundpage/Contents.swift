@@ -2,6 +2,8 @@
 
 import UIKit
 
+
+
 // MARK: - UICollectionViewDataSource
 
 func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -13,5 +15,7 @@ func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
 }
 
 func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-    return <#code#>
+    let cell = collectionView.dequeueReusableCellWithReuseIdentifier(<#T##identifier: String##String#>, forIndexPath: <#T##NSIndexPath#>)
+    return cell
 }
+
