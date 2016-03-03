@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>view_lazy</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string> /// &lt;#Description#&gt;
+    private lazy var &lt;#name#&gt;: &lt;#UIView#&gt; = {
+        let &lt;#name#&gt; = &lt;#UIView#&gt;()
+        
+        return &lt;#name#&gt;
+    }()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>62E56A00-CCA9-47B1-BCC9-3FAC4385B96C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>懒加载视图</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>lazy UIView or SubView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

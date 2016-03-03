@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>description</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    var properties = ["&lt;#property#&gt;", "&lt;#property#&gt;", "&lt;#property#&gt;",  "&lt;#property#&gt;"]
+    override var description: String {
+        let dict = dictionaryWithValuesForKeys(properties)
+        return "\(dict)"
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>169CA084-6A87-469F-A2BB-BD9D3B60834F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>打印属性</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>description</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

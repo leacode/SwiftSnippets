@@ -4,7 +4,5 @@
         <page name='tableViewDataSource'/>
         <page name='tableViewDelegate'/>
         <page name='collectionViewDataSource'/>
-        <page name='GCD'/>
-        <page name='ControlFlow'/>
     </pages>
 </playground>
